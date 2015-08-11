@@ -5,7 +5,7 @@
 ## Import
 [CocoaPods](http://cocoapods.org)
 
-`pod 'UISlider-TrackHeight', '~> 1.0.0'`
+`pod 'UISlider-TrackHeight', '~> 1.0.2'`
 
 ## Usage
 ```objective-c
