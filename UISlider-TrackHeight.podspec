@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "UISlider-TrackHeight"
-  s.version          = "1.0.0"
+  s.version          = "1.0.2"
   s.summary          = "Adjust UISlider track height."
   s.description      = <<-DESC
                        A Category for adjust UISlider track height.
