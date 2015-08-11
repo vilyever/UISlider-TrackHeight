@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEF351531B79CB9B0070C6D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF351521B79CB9B0070C6D5 /* main.m */; };
+		FEF351561B79CB9B0070C6D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF351551B79CB9B0070C6D5 /* AppDelegate.m */; };
+		FEF351591B79CB9B0070C6D5 /* UISlider_TrackHeight.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FEF351571B79CB9B0070C6D5 /* UISlider_TrackHeight.xcdatamodeld */; };
+		FEF3515C1B79CB9B0070C6D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF3515B1B79CB9B0070C6D5 /* ViewController.m */; };
+		FEF3515F1B79CB9B0070C6D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEF3515D1B79CB9B0070C6D5 /* Main.storyboard */; };
+		FEF351611B79CB9B0070C6D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF351601B79CB9B0070C6D5 /* Images.xcassets */; };
+		FEF351641B79CB9B0070C6D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF351621B79CB9B0070C6D5 /* LaunchScreen.xib */; };
+		FEF351701B79CB9C0070C6D5 /* UISlider_TrackHeightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF3516F1B79CB9C0070C6D5 /* UISlider_TrackHeightTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEF3516A1B79CB9C0070C6D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEF351451B79CB9B0070C6D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEF3514C1B79CB9B0070C6D5;
+			remoteInfo = "UISlider-TrackHeight";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEF3514D1B79CB9B0070C6D5 /* UISlider-TrackHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UISlider-TrackHeight.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEF351511B79CB9B0070C6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEF351521B79CB9B0070C6D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FEF351541B79CB9B0070C6D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FEF351551B79CB9B0070C6D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FEF351581B79CB9B0070C6D5 /* UISlider_TrackHeight.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UISlider_TrackHeight.xcdatamodel; sourceTree = "<group>"; };
+		FEF3515A1B79CB9B0070C6D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FEF3515B1B79CB9B0070C6D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FEF3515E1B79CB9B0070C6D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEF351601B79CB9B0070C6D5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FEF351631B79CB9B0070C6D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FEF351691B79CB9C0070C6D5 /* UISlider-TrackHeightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UISlider-TrackHeightTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEF3516E1B79CB9C0070C6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEF3516F1B79CB9C0070C6D5 /* UISlider_TrackHeightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UISlider_TrackHeightTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEF3514A1B79CB9B0070C6D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF351661B79CB9C0070C6D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEF351441B79CB9B0070C6D5 = {
+			isa = PBXGroup;
+			children = (
+				FEF3514F1B79CB9B0070C6D5 /* UISlider-TrackHeight */,
+				FEF3516C1B79CB9C0070C6D5 /* UISlider-TrackHeightTests */,
+				FEF3514E1B79CB9B0070C6D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEF3514E1B79CB9B0070C6D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEF3514D1B79CB9B0070C6D5 /* UISlider-TrackHeight.app */,
+				FEF351691B79CB9C0070C6D5 /* UISlider-TrackHeightTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEF3514F1B79CB9B0070C6D5 /* UISlider-TrackHeight */ = {
+			isa = PBXGroup;
+			children = (
+				FEF351541B79CB9B0070C6D5 /* AppDelegate.h */,
+				FEF351551B79CB9B0070C6D5 /* AppDelegate.m */,
+				FEF3515A1B79CB9B0070C6D5 /* ViewController.h */,
+				FEF3515B1B79CB9B0070C6D5 /* ViewController.m */,
+				FEF3515D1B79CB9B0070C6D5 /* Main.storyboard */,
+				FEF351601B79CB9B0070C6D5 /* Images.xcassets */,
+				FEF351621B79CB9B0070C6D5 /* LaunchScreen.xib */,
+				FEF351571B79CB9B0070C6D5 /* UISlider_TrackHeight.xcdatamodeld */,
+				FEF351501B79CB9B0070C6D5 /* Supporting Files */,
+			);
+			path = "UISlider-TrackHeight";
+			sourceTree = "<group>";
+		};
+		FEF351501B79CB9B0070C6D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEF351511B79CB9B0070C6D5 /* Info.plist */,
+				FEF351521B79CB9B0070C6D5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEF3516C1B79CB9C0070C6D5 /* UISlider-TrackHeightTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEF3516F1B79CB9C0070C6D5 /* UISlider_TrackHeightTests.m */,
+				FEF3516D1B79CB9C0070C6D5 /* Supporting Files */,
+			);
+			path = "UISlider-TrackHeightTests";
+			sourceTree = "<group>";
+		};
+		FEF3516D1B79CB9C0070C6D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEF3516E1B79CB9C0070C6D5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEF3514C1B79CB9B0070C6D5 /* UISlider-TrackHeight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEF351731B79CB9C0070C6D5 /* Build configuration list for PBXNativeTarget "UISlider-TrackHeight" */;
+			buildPhases = (
+				FEF351491B79CB9B0070C6D5 /* Sources */,
+				FEF3514A1B79CB9B0070C6D5 /* Frameworks */,
+				FEF3514B1B79CB9B0070C6D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UISlider-TrackHeight";
+			productName = "UISlider-TrackHeight";
+			productReference = FEF3514D1B79CB9B0070C6D5 /* UISlider-TrackHeight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEF351681B79CB9C0070C6D5 /* UISlider-TrackHeightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEF351761B79CB9C0070C6D5 /* Build configuration list for PBXNativeTarget "UISlider-TrackHeightTests" */;
+			buildPhases = (
+				FEF351651B79CB9C0070C6D5 /* Sources */,
+				FEF351661B79CB9C0070C6D5 /* Frameworks */,
+				FEF351671B79CB9C0070C6D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEF3516B1B79CB9C0070C6D5 /* PBXTargetDependency */,
+			);
+			name = "UISlider-TrackHeightTests";
+			productName = "UISlider-TrackHeightTests";
+			productReference = FEF351691B79CB9C0070C6D5 /* UISlider-TrackHeightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEF351451B79CB9B0070C6D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = vilyever;
+				TargetAttributes = {
+					FEF3514C1B79CB9B0070C6D5 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					FEF351681B79CB9C0070C6D5 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FEF3514C1B79CB9B0070C6D5;
+					};
+				};
+			};
+			buildConfigurationList = FEF351481B79CB9B0070C6D5 /* Build configuration list for PBXProject "UISlider-TrackHeight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEF351441B79CB9B0070C6D5;
+			productRefGroup = FEF3514E1B79CB9B0070C6D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEF3514C1B79CB9B0070C6D5 /* UISlider-TrackHeight */,
+				FEF351681B79CB9C0070C6D5 /* UISlider-TrackHeightTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEF3514B1B79CB9B0070C6D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF3515F1B79CB9B0070C6D5 /* Main.storyboard in Resources */,
+				FEF351641B79CB9B0070C6D5 /* LaunchScreen.xib in Resources */,
+				FEF351611B79CB9B0070C6D5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF351671B79CB9C0070C6D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEF351491B79CB9B0070C6D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF351561B79CB9B0070C6D5 /* AppDelegate.m in Sources */,
+				FEF351531B79CB9B0070C6D5 /* main.m in Sources */,
+				FEF3515C1B79CB9B0070C6D5 /* ViewController.m in Sources */,
+				FEF351591B79CB9B0070C6D5 /* UISlider_TrackHeight.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF351651B79CB9C0070C6D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF351701B79CB9C0070C6D5 /* UISlider_TrackHeightTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEF3516B1B79CB9C0070C6D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEF3514C1B79CB9B0070C6D5 /* UISlider-TrackHeight */;
+			targetProxy = FEF3516A1B79CB9C0070C6D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEF3515D1B79CB9B0070C6D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEF3515E1B79CB9B0070C6D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEF351621B79CB9B0070C6D5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEF351631B79CB9B0070C6D5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEF351711B79CB9C0070C6D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEF351721B79CB9C0070C6D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEF351741B79CB9C0070C6D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UISlider-TrackHeight/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FEF351751B79CB9C0070C6D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UISlider-TrackHeight/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FEF351771B79CB9C0070C6D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UISlider-TrackHeightTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UISlider-TrackHeight.app/UISlider-TrackHeight";
+			};
+			name = Debug;
+		};
+		FEF351781B79CB9C0070C6D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UISlider-TrackHeightTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UISlider-TrackHeight.app/UISlider-TrackHeight";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEF351481B79CB9B0070C6D5 /* Build configuration list for PBXProject "UISlider-TrackHeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEF351711B79CB9C0070C6D5 /* Debug */,
+				FEF351721B79CB9C0070C6D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEF351731B79CB9C0070C6D5 /* Build configuration list for PBXNativeTarget "UISlider-TrackHeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEF351741B79CB9C0070C6D5 /* Debug */,
+				FEF351751B79CB9C0070C6D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FEF351761B79CB9C0070C6D5 /* Build configuration list for PBXNativeTarget "UISlider-TrackHeightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEF351771B79CB9C0070C6D5 /* Debug */,
+				FEF351781B79CB9C0070C6D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FEF351571B79CB9B0070C6D5 /* UISlider_TrackHeight.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FEF351581B79CB9B0070C6D5 /* UISlider_TrackHeight.xcdatamodel */,
+			);
+			currentVersion = FEF351581B79CB9B0070C6D5 /* UISlider_TrackHeight.xcdatamodel */;
+			path = UISlider_TrackHeight.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FEF351451B79CB9B0070C6D5 /* Project object */;
+}
