@@ -11,6 +11,8 @@
 
 @interface UISlider (VDTrackHeight)
 
+@property (nonatomic, assign) CGFloat vd_trackHeight;
+
 #pragma mark Methods
 #pragma mark Public Class Method
 

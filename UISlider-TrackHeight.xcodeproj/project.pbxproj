@@ -15,6 +15,9 @@
 		FEF351611B79CB9B0070C6D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF351601B79CB9B0070C6D5 /* Images.xcassets */; };
 		FEF351641B79CB9B0070C6D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF351621B79CB9B0070C6D5 /* LaunchScreen.xib */; };
 		FEF351701B79CB9C0070C6D5 /* UISlider_TrackHeightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF3516F1B79CB9C0070C6D5 /* UISlider_TrackHeightTests.m */; };
+		FEF351801B79CBCB0070C6D5 /* screenshots1.png in Resources */ = {isa = PBXBuildFile; fileRef = FEF351791B79CBCB0070C6D5 /* screenshots1.png */; };
+		FEF351821B79CBCB0070C6D5 /* UISlider-TrackHeight.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FEF3517F1B79CBCB0070C6D5 /* UISlider-TrackHeight.podspec */; };
+		FEF351851B79CC540070C6D5 /* UISlider+VDTrackHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF351841B79CC540070C6D5 /* UISlider+VDTrackHeight.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,10 @@
 		FEF351691B79CB9C0070C6D5 /* UISlider-TrackHeightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UISlider-TrackHeightTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF3516E1B79CB9C0070C6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEF3516F1B79CB9C0070C6D5 /* UISlider_TrackHeightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UISlider_TrackHeightTests.m; sourceTree = "<group>"; };
+		FEF351791B79CBCB0070C6D5 /* screenshots1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshots1.png; sourceTree = "<group>"; };
+		FEF3517F1B79CBCB0070C6D5 /* UISlider-TrackHeight.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "UISlider-TrackHeight.podspec"; sourceTree = "<group>"; };
+		FEF351831B79CC540070C6D5 /* UISlider+VDTrackHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISlider+VDTrackHeight.h"; sourceTree = "<group>"; };
+		FEF351841B79CC540070C6D5 /* UISlider+VDTrackHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISlider+VDTrackHeight.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +75,9 @@
 				FEF3514F1B79CB9B0070C6D5 /* UISlider-TrackHeight */,
 				FEF3516C1B79CB9C0070C6D5 /* UISlider-TrackHeightTests */,
 				FEF3514E1B79CB9B0070C6D5 /* Products */,
+				FEF351791B79CBCB0070C6D5 /* screenshots1.png */,
+				FEF3517F1B79CBCB0070C6D5 /* UISlider-TrackHeight.podspec */,
+				FEF3517A1B79CBCB0070C6D5 /* Pod */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,6 +130,31 @@
 				FEF3516E1B79CB9C0070C6D5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEF3517A1B79CBCB0070C6D5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FEF3517B1B79CBCB0070C6D5 /* Assets */,
+				FEF3517C1B79CBCB0070C6D5 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		FEF3517B1B79CBCB0070C6D5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		FEF3517C1B79CBCB0070C6D5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FEF351831B79CC540070C6D5 /* UISlider+VDTrackHeight.h */,
+				FEF351841B79CC540070C6D5 /* UISlider+VDTrackHeight.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +239,8 @@
 			files = (
 				FEF3515F1B79CB9B0070C6D5 /* Main.storyboard in Resources */,
 				FEF351641B79CB9B0070C6D5 /* LaunchScreen.xib in Resources */,
+				FEF351801B79CBCB0070C6D5 /* screenshots1.png in Resources */,
+				FEF351821B79CBCB0070C6D5 /* UISlider-TrackHeight.podspec in Resources */,
 				FEF351611B79CB9B0070C6D5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -226,6 +263,7 @@
 				FEF351531B79CB9B0070C6D5 /* main.m in Sources */,
 				FEF3515C1B79CB9B0070C6D5 /* ViewController.m in Sources */,
 				FEF351591B79CB9B0070C6D5 /* UISlider_TrackHeight.xcdatamodeld in Sources */,
+				FEF351851B79CC540070C6D5 /* UISlider+VDTrackHeight.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

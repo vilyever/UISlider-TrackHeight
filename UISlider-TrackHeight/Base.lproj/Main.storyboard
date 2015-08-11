@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F6a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,8 +16,79 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B9n-3J-q6x">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="300"/>
+                                <subviews>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="WD2-8J-tOl">
+                                        <rect key="frame" x="18" y="135" width="564" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="q4X-N9-bv7"/>
+                                        </constraints>
+                                    </slider>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="pH6-tF-S3L">
+                                        <rect key="frame" x="18" y="85" width="564" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="feU-ua-gN3"/>
+                                        </constraints>
+                                    </slider>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="WD2-8J-tOl" firstAttribute="top" secondItem="pH6-tF-S3L" secondAttribute="bottom" constant="20" id="03t-RW-QBW"/>
+                                    <constraint firstAttribute="trailing" secondItem="WD2-8J-tOl" secondAttribute="trailing" constant="20" id="80N-AF-JxL"/>
+                                    <constraint firstItem="pH6-tF-S3L" firstAttribute="leading" secondItem="B9n-3J-q6x" secondAttribute="leading" constant="20" id="bwR-Va-aJJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="pH6-tF-S3L" secondAttribute="trailing" constant="20" id="cQm-iS-qRq"/>
+                                    <constraint firstAttribute="centerX" secondItem="WD2-8J-tOl" secondAttribute="centerX" id="mPA-Ec-9Jr"/>
+                                    <constraint firstAttribute="centerY" secondItem="WD2-8J-tOl" secondAttribute="centerY" id="qGk-Jz-cJM"/>
+                                    <constraint firstItem="WD2-8J-tOl" firstAttribute="leading" secondItem="B9n-3J-q6x" secondAttribute="leading" constant="20" id="x1Q-eT-aBP"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MKw-2k-mEA">
+                                <rect key="frame" x="0.0" y="300" width="600" height="300"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B0s-p0-dbn">
+                                        <rect key="frame" x="285" y="20" width="30" height="260"/>
+                                        <subviews>
+                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="2nu-yB-bje">
+                                                <rect key="frame" x="-117" y="115" width="264" height="31"/>
+                                            </slider>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="centerY" secondItem="2nu-yB-bje" secondAttribute="centerY" id="0J8-mu-ofO"/>
+                                            <constraint firstItem="2nu-yB-bje" firstAttribute="height" secondItem="B0s-p0-dbn" secondAttribute="width" id="3gy-Cl-hAL"/>
+                                            <constraint firstAttribute="width" constant="30" id="AwC-0H-cv8"/>
+                                            <constraint firstAttribute="centerX" secondItem="2nu-yB-bje" secondAttribute="centerX" id="Onh-mP-Rs0"/>
+                                            <constraint firstItem="2nu-yB-bje" firstAttribute="width" secondItem="B0s-p0-dbn" secondAttribute="height" id="vlT-mM-ICS"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="B0s-p0-dbn" firstAttribute="top" secondItem="MKw-2k-mEA" secondAttribute="top" constant="20" id="2Dl-ds-5mG"/>
+                                    <constraint firstAttribute="centerY" secondItem="B0s-p0-dbn" secondAttribute="centerY" id="6cp-uk-EbI"/>
+                                    <constraint firstAttribute="centerX" secondItem="B0s-p0-dbn" secondAttribute="centerX" id="UK5-0w-vN5"/>
+                                    <constraint firstAttribute="bottom" secondItem="B0s-p0-dbn" secondAttribute="bottom" constant="20" id="cJ2-rd-s1I"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="MKw-2k-mEA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="6Rr-i3-dFf"/>
+                            <constraint firstAttribute="trailing" secondItem="MKw-2k-mEA" secondAttribute="trailing" id="ELW-Qj-ghZ"/>
+                            <constraint firstAttribute="trailing" secondItem="B9n-3J-q6x" secondAttribute="trailing" id="OXY-m6-CBo"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="MKw-2k-mEA" secondAttribute="bottom" id="S8g-Kq-7V0"/>
+                            <constraint firstItem="B9n-3J-q6x" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="UkD-8N-ij8"/>
+                            <constraint firstItem="MKw-2k-mEA" firstAttribute="top" secondItem="B9n-3J-q6x" secondAttribute="bottom" id="iTt-wm-hxJ"/>
+                            <constraint firstItem="MKw-2k-mEA" firstAttribute="height" secondItem="B9n-3J-q6x" secondAttribute="height" id="qCW-8C-ld9"/>
+                            <constraint firstItem="B9n-3J-q6x" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="wx2-X3-Ef2"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="slider" destination="WD2-8J-tOl" id="YBj-Zo-tD6"/>
+                        <outlet property="verticalSlider" destination="2nu-yB-bje" id="7yV-RO-pUj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

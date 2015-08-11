@@ -8,7 +8,13 @@
 
 #import "ViewController.h"
 
+#import "UISlider+VDTrackHeight.h"
+
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet UISlider *slider;
+@property (weak, nonatomic) IBOutlet UISlider *verticalSlider;
+
 
 @end
 
@@ -17,6 +23,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    self.slider.vd_trackHeight = 5.0f;
+    
+    self.verticalSlider.transform = CGAffineTransformMakeRotation(M_PI * -0.5f);
+    self.verticalSlider.vd_trackHeight = 10.0f;
 }
 
 - (void)didReceiveMemoryWarning {
