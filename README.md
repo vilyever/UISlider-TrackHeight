@@ -1,6 +1,8 @@
 # UISlider-TrackHeight
 调整UISlider的滑动条高度 
-![image](https://raw.githubusercontent.com/vilyever/UISlider-TrackHeight/master/screenshots1.png)
+<p align="center" >
+<img src="screenshots1.png" />
+</p>
 
 ## Import
 [CocoaPods](http://cocoapods.org)
@@ -17,4 +19,4 @@ self.slider.vd_trackHeight = 5.0f;
 ```
 ## License
 
-[MIT license](LICENSE). 
+[MIT license](LICENSE)
